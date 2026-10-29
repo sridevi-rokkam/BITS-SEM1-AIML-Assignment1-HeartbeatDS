@@ -30,8 +30,8 @@ from sklearn.metrics import (
 warnings.filterwarnings("ignore")
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-#BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR   = "C:\123Test_data123.csv"
+BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
+#BASE_DIR   = "C:\123Test_data123.csv"
 DATA_DIR   = os.path.join(BASE_DIR, "data")
 MODEL_DIR  = os.path.join(BASE_DIR, "model")
 os.makedirs(DATA_DIR,  exist_ok=True)
